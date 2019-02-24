@@ -20,25 +20,22 @@ class MainActivity : AppCompatActivity() {
 
         val btnPressed = view as ImageButton
 
-        when (btnPressed.id) {
-            btnBee.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.bee)
-                mediaPlayer.start()}
-            btnCat.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.cat)
-                mediaPlayer.start()}
-            btnCow.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.cow)
-                mediaPlayer.start()}
-            btnDog.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.dog)
-                mediaPlayer.start()}
-            btnDuck.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.duck)
-                mediaPlayer.start()}
-            btnFish.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.fish)
-                mediaPlayer.start()}
-            btnGorilla.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.gorilla)
-                mediaPlayer.start()}
-            btnOwl.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.owl)
-                mediaPlayer.start()}
-            btnSheep.id -> {mediaPlayer = MediaPlayer.create(this, R.raw.sheep)
-                mediaPlayer.start()}
+        when (btnPressed) {
+            btnBee -> playStuff(R.raw.bee)
+            btnCat -> playStuff(R.raw.cat)
+            btnCow -> playStuff(R.raw.cow)
+            btnDog -> playStuff(R.raw.dog)
+            btnDuck -> playStuff(R.raw.duck)
+            btnFish -> playStuff(R.raw.fish)
+            btnGorilla -> playStuff(R.raw.gorilla)
+            btnOwl -> playStuff(R.raw.owl)
+            btnSheep -> playStuff(R.raw.sheep)
         }
+    }
+
+    private fun playStuff(audio: Int) {
+
+        mediaPlayer = MediaPlayer.create(this, audio)
+        mediaPlayer.start()
     }
 }
