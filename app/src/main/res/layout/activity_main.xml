@@ -21,17 +21,19 @@
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/bee"
                     android:id="@+id/btnBee"
-                    android:onClick="btnClick"/>
+                    android:onClick="btnClick" android:contentDescription="@string/bee_description"/>
             <ImageButton
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/cat"
-                    android:id="@+id/btnCat" android:onClick="btnClick"/>
+                    android:id="@+id/btnCat" android:onClick="btnClick"
+                    android:contentDescription="@string/cat_description"/>
             <ImageButton
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/cow"
-                    android:id="@+id/btnCow" android:onClick="btnClick"/>
+                    android:id="@+id/btnCow" android:onClick="btnClick"
+                    android:contentDescription="@string/cow_description"/>
         </TableRow>
         <TableRow android:layout_width="match_parent"
                   android:layout_height="match_parent">
@@ -39,17 +41,20 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:id="@+id/btnDog"
-                    app:srcCompat="@drawable/dog" android:onClick="btnClick"/>
+                    app:srcCompat="@drawable/dog" android:onClick="btnClick"
+                    android:contentDescription="@string/dog_description"/>
             <ImageButton
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/duck"
-                    android:id="@+id/btnDuck" android:onClick="btnClick"/>
+                    android:id="@+id/btnDuck" android:onClick="btnClick"
+                    android:contentDescription="@string/duck_description"/>
             <ImageButton
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/fish"
-                    android:id="@+id/btnFish" android:onClick="btnClick"/>
+                    android:id="@+id/btnFish" android:onClick="btnClick"
+                    android:contentDescription="@string/fish_description"/>
         </TableRow>
         <TableRow android:layout_width="match_parent"
                   android:layout_height="match_parent">
@@ -57,17 +62,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/gorilla"
-                    android:id="@+id/btnGorilla" android:onClick="btnClick"/>
+                    android:id="@+id/btnGorilla" android:onClick="btnClick"
+                    android:contentDescription="@string/gorilla_description"/>
             <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/owl"
-                    android:id="@+id/btnOwl" android:onClick="btnClick"/>
+                    android:id="@+id/btnOwl" android:onClick="btnClick"
+                    android:contentDescription="@string/owl_description"/>
             <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/sheep"
-                    android:id="@+id/btnSheep" android:onClick="btnClick"/>
+                    android:id="@+id/btnSheep" android:onClick="btnClick"
+                    android:contentDescription="@string/sheep_description"/>
         </TableRow>
     </TableLayout>
 </android.support.constraint.ConstraintLayout>
