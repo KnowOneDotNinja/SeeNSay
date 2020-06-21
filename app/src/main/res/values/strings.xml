@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">See \'N Say</string>
+    <string name="bee_description">Bee button</string>
+    <string name="cat_description">Cat button</string>
+    <string name="dog_description">Dog button</string>
+    <string name="gorilla_description">Gorilla button</string>
+    <string name="fish_description">Fish button</string>
+    <string name="cow_description">Cow button</string>
+    <string name="duck_description">Duck button</string>
+    <string name="owl_description">Owl button</string>
+    <string name="sheep_description">Sheep button</string>
 </resources>
